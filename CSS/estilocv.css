@@ -1,0 +1,120 @@
+body{
+  position: inherit;
+  background-color: #6e5343;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 1000px;
+}
+.foto {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  overflow: hidden;
+}
+*.texto {
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 50px;
+}
+.titulos {
+  font-size: 40px;
+
+}
+.info{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nombre{ 
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  border-bottom: 1px solid black;
+}
+
+.container {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  margin: 50px;
+  max-width: 1500px;
+  min-width: 100px;
+  min-height: 1000px;
+  display: grid;
+  grid-template-columns: 14fr 30fr; 
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.container .top {
+  background-color: red;
+}
+.container .left {
+  background-color: rgb(211, 155, 102);
+  position: relative;
+  padding: 40px;
+  border-right: 1px solid black ;
+  align-items: center;
+  justify-content: center;
+}
+.container .perfil{
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+.container .contacto{
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.container .right{
+  background-color: white;
+  margin: 10px 30px 10px 30px;
+  padding: 20px;
+}
+.container .educ{
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+.container .carac{
+  background-color: white;
+}
+ .container .exp{
+  background-color: white;
+  border-bottom: 1px solid black;
+ }
+ .settings{
+  background-color: white;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  margin: 50px;
+  max-width: 300px;
+  min-width: 100px;
+  min-height: 300px;
+  border:2px solid black;
+}
+.settings .internals{
+  margin: 10px;
+}
+.botones{
+background-color: gray;
+border-radius:42px;
+border:2px solid black;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family:Arial;
+font-size:20px;
+padding:8px 31px;
+text-decoration:none;
+}
+
+.botones:hover {
+background-color: rgb(211, 155, 102);
+}
+.botones:active {
+position:relative;
+top:1px;
+}
